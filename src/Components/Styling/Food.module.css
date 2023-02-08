@@ -1,0 +1,104 @@
+.card {
+	width: 33%;
+	/* margin: 10px; */
+	margin-bottom: 10px;
+	position: relative;
+}
+.price {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	margin-top: -20px;
+	margin-left: 120px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 14px;
+	background: #737576;
+	color: white;
+	position: absolute;
+	z-index: 1;
+	transition: .4s;
+}
+.card:hover .price {
+	display: flex;
+}
+.details {
+	box-shadow: 2px 2px 2px #f2f2f2;
+	color: #666;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+.title {
+	padding: 10px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.title > div:first-child {
+	max-width: 170px;
+	max-height: 20px;
+	color: #000;
+	font-size: 100%;
+	font-weight: 400;
+	line-height: 25px;
+	overflow: hidden;
+}
+.title > div:last-child {
+	max-width: 170px;
+	color: rgb(78, 78, 78);
+	font-size: 80%;
+	font-weight: 400;
+	line-height: 25px;
+}
+.btn {
+	padding: 10px;
+	text-align: right;
+}
+.btn span {
+	background-color: #f84464;
+	color: #fff;
+	padding: 6px 14px;
+	cursor: pointer;
+	z-index: 2;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.veg {
+	width: 13px;
+	height: 13px;
+	border: 1px solid green;
+	text-align: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	margin-top: 0;
+	margin-right: 0;
+	float: right;
+}
+
+.veg i {
+	color: green;
+	font-size: 8px;
+}
+
+.counter {
+	display: flex;
+	margin-top: 10px;
+	align-items: center;
+	width: 50px;
+}
+.counter div {
+	margin: 3px;
+}
+.counter > div {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.counter > div:first-child:hover,
+.counter > div:last-child:hover {
+	color: #f84464;
+}
